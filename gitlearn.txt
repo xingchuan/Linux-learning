@@ -1,1 +1,8 @@
-$ git push -u 远程库名字： master  //把本地库的内容推送到远程
+git简单步骤：
+$ git init  //将所在的目录变成git可以管理的仓库
+$ git add <文件名>  //把文件添加到仓库
+$ git commit -m "文件说明内容"  //把文件提交到仓库  
+$ ssh-keygen -t rsa -C "youremail@example.com"  //生成秘钥，把秘钥复制粘贴到github网站的SSH keys秘钥里，建立连接
+$ git remote  //查看是否与远程库建立连接
+$ git push -u <远程库名字>   //把本地库的内容推送到远程
+$ git clone <git库的地址>  //克隆远程git库到本地
