@@ -6,3 +6,4 @@ $ ssh-keygen -t rsa -C "youremail@example.com"  //生成秘钥，把秘钥复制
 $ git remote  //查看是否与远程库建立连接
 $ git push -u <远程库名字>   //把本地库的内容推送到远程
 $ git clone <git库的地址>  //克隆远程git库到本地
+$ 这是我的更新
